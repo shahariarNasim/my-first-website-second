@@ -1,0 +1,136 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+.word-clr{
+    font-size:60px;
+    color: orange;
+}
+.word-clr2{
+    color: purple;
+    font-size:35px;
+}
+.word-clr3{
+    color: orange;
+    font-size:35px;
+}
+.header-clr{
+    color: crimson;
+    font-size: 50px;
+
+}
+#para-clr{
+    color: gray;
+    margin-bottom: 50px;    
+}
+#para-second{
+    margin-bottom: 50px;
+}
+.btn-clr{
+    text-decoration: none;
+    background-image: linear-gradient(to left,orange , salmon);
+    color: white;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-weight: 700px;
+}
+.first-part{
+    display: flex;
+    margin-bottom: 100px;  
+}
+.first-div{
+  width: 50%;
+  padding:5%;
+}
+.first-div img{
+    width: 80%;
+}
+.second-header{
+ color: gray;
+}
+#bg-pic{
+    background-image: url(photos/frame.jpg);
+    background-repeat: no-repeat;
+}
+#center-alin{
+    text-align: center;
+}
+.recipy-container{
+    display: flex;
+}
+.three-recipy{
+    width: 30%;
+    box-shadow: 10px 10px 50px gray; 
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 2px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 90px;
+}
+.three-recipy img{
+    padding-left:6%;
+    padding-top: 6%;
+    width: 350px;
+    height: 260px;
+    border-radius: 40px;
+}
+.recipy-sentances{
+ text-align: left;
+ padding-left:10px;
+ margin-left: 5px;
+}
+
+.social-cite{
+width: 100%;
+margin-top: 20px;
+margin-bottom: 40px;
+margin-left: 150px;
+padding: 20px;
+
+}
+#box-shado{
+    display: flex;
+    box-shadow: 5px 10px 20px gray; 
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px; 
+    height: 200px;
+    margin-bottom: 90px;
+   }
+
+.last-part{
+text-align: center;
+background-color:rgb(1, 1, 14);
+padding: 3%;
+margin-top: 50px;    
+         
+}
+.last-part p{
+    color: rgba(255, 255, 255, 0.603);
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    background-color: #34495e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+header ul li a{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+header ul li{
+    float: left;
+}
+.end-task{
+    text-align: center;
+    background-color: rgb(218, 213, 213);
+    border-radius: 10px;
+}
